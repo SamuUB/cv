@@ -1,0 +1,42 @@
+:root {
+  --primary: #58a6ff;
+  --bg: #0d1117;
+  --text: #c9d1d9;
+  --card-bg: #161b22;
+  --transition: all 0.3s ease;
+}
+
+/* Tema claro */
+body.light-mode {
+  --bg: #ffffff;
+  --text: #2d333b;
+  --card-bg: #f6f8fa;
+}
+
+.download-btn {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  margin: 2rem auto;
+  transition: var(--transition);
+}
+
+.download-btn:hover {
+  transform: scale(1.05);
+}
+
+#themeToggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: var(--card-bg);
+  border: 1px solid var(--primary);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
