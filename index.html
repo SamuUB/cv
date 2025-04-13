@@ -4,7 +4,96 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Samuel Muñoz-Guerra - CV</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f2f2f8;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #5a4fff;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .location {
+      text-align: center;
+      color: #666;
+      margin-bottom: 2rem;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    .skill {
+      margin-bottom: 1.2rem;
+    }
+
+    .skill-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 600;
+    }
+
+    .skill-bar {
+      background: #ddd;
+      border-radius: 8px;
+      height: 12px;
+      margin-top: 5px;
+      overflow: hidden;
+    }
+
+    .skill-progress {
+      background: linear-gradient(to right, #7e5bef, #5a4fff);
+      height: 100%;
+      border-radius: 8px;
+    }
+
+    .project {
+      background: #f9f9fe;
+      border: 1px solid #e0e0f0;
+      border-radius: 12px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .project h3 {
+      margin: 0 0 0.3rem 0;
+    }
+
+    .tech-tags {
+      margin-top: 0.5rem;
+    }
+
+    .tag {
+      background: #e6e6ff;
+      color: #5a4fff;
+      border-radius: 999px;
+      padding: 0.3rem 0.7rem;
+      font-size: 0.85rem;
+      margin-right: 0.3rem;
+      display: inline-block;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
@@ -12,13 +101,11 @@
     <p class="subtitle"><strong>Estudiante de Ingeniería Informática | Programador Junior</strong></p>
     <p class="location"><em>Nacido el 24/09/2004 – Seseña (Toledo), 45223</em></p>
 
-    <!-- Sección Sobre mí -->
     <section class="about">
-      <h2>🧑💻 Sobre mí</h2>
+      <h2>🧑‍💻 Sobre mí</h2>
       <p>Soy estudiante del Grado en Ingeniería Informática en la UPM, apasionado por el desarrollo de software. Busco oportunidades para aplicar mis conocimientos en proyectos reales.</p>
     </section>
 
-    <!-- Stack Tecnológico mejorado -->
     <section class="skills">
       <h2>🛠 Stack Tecnológico</h2>
       <div class="skill">
@@ -30,7 +117,6 @@
           <div class="skill-progress" style="width: 70%"></div>
         </div>
       </div>
-      
       <div class="skill">
         <div class="skill-header">
           <span>C</span>
@@ -42,7 +128,6 @@
       </div>
     </section>
 
-    <!-- Proyectos UPM -->
     <section class="projects">
       <h2>📂 Proyectos Académicos</h2>
       <div class="project">
@@ -64,10 +149,6 @@
         </div>
       </div>
     </section>
-
-    <!-- Resto de secciones (Experiencia, Formación, etc.) -->
-    <!-- ... (Mantén tus secciones originales aquí) ... -->
-
   </div>
 </body>
 </html>
